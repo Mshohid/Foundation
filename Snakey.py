@@ -112,3 +112,6 @@ pygame.quit()
 quit()  
 
 gameLoop()
+
+#Credits are due to edureka @ https://www.edureka.co/blog/snake-game-with-pygame/.
+#I took what I could understand from the tutorial and made a python snake game from it, therefore you'll see mine is quite lacking compared to her brilliant game. 
