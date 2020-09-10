@@ -1,1 +1,28 @@
-# Mini Python Tasks
+# Dicey2.py
+
+A dice game between two players.
+If you roll an even number 10 points will be added bonus and if you roll an odd number 5 points will be subtracted.
+A dice game consists of 3 rounds. Each round each player rolls a six sided dice, and the program determines who has won by comparing the two scores.
+As consecutive rounds commence scores from previous rounds are added and the program compares the total scores and prints out who is in the lead and who is behind.
+
+# Fizzbuzz.py
+
+As part of the AWS re/Start course my instructor challenged me to make a programme re-enact the game fizzbuzz but using python.
+
+# Scrape.py 
+
+My instructor wanted to see what I could do using beautiful soup so I built this in reponse. This is a scraper which I designed to pull the AWS blogs page and only print out the categories of content on the site.
+
+# Snakey.py
+
+I enjoy playing games so I wanted to see if I could possibly write one. In my spare time I followed a tutorial on the internet and made this snake game using pygame on python. 
+The tutorial has a lot more instructions, but I only used what I understood from it to design my snake game. 
+Credits are due to edureka @ https://www.edureka.co/blog/snake-game-with-pygame/.
+
+# Spooky.py
+
+As part of the AWS re/Start programme I had studied Python. After a lesson covering if statements, lists, and loops, my instructor gave me 30 minutes to design a programme using those concepts. I came up with this story/whats-behind-the-door type game.
+
+# Banarama.py 
+
+A programe which uses if statements, import random, and operators to randomly generate a bunch of bananas and determines whether the bunch is small or large. 
