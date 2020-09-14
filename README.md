@@ -17,7 +17,7 @@ My instructor wanted to see what I could do using beautiful soup so I built this
 
 I enjoy playing games so I wanted to see if I could possibly write one. In my spare time I followed a tutorial on the internet and made this snake game using pygame on python. 
 The tutorial has a lot more instructions, but I only used what I understood from it to design my snake game. 
-Credits are due to edureka @ https://www.edureka.co/blog/snake-game-with-pygame/.
+All credits go to Wajiha Urooj @ https://www.edureka.co/blog/snake-game-with-pygame/.
 
 # Spooky.py
 
