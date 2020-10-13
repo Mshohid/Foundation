@@ -157,6 +157,8 @@ else:
  
 END = input("Is this the end")
 
+with open ('Myfile.txt', 'w') as Scores:
+    Scores.write("Player 2 has scored " + str(z3) + " Player 1 has scored " + str(x3))
 
 
 
