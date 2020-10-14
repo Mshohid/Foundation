@@ -155,10 +155,10 @@ else:
 #End of Round 3
 #Crackdown
  
-END = input("Is this the end")
+END = input("End of the game.")
 
-with open ('Myfile.txt', 'w') as Scores:
-    Scores.write("Player 2 has scored " + str(z3) + " Player 1 has scored " + str(x3))
+with open ('Myfile.txt', 'a+') as Scores:
+    Scores.write("Player 1 has scored " + str(x3) + " Player 2 has scored " + str(z3))
 
 
 
