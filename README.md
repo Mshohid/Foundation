@@ -2,8 +2,9 @@
 
 A dice game between two players.
 If you roll an even number 10 points will be added bonus and if you roll an odd number 5 points will be subtracted.
-A dice game consists of 3 rounds. Each round each player rolls a six sided dice, and the program determines who has won by comparing the two scores.
+A dice game consists of 3 rounds. Each round each player rolls a six-sided dice, and the program determines who has won by comparing the two scores.
 As consecutive rounds commence scores from previous rounds are added and the program compares the total scores and prints out who is in the lead and who is behind.
+At the end of the game,the program will create a file to save the scores of both players, and if the file already exists it will append to the contents of it.
 
 # Fizzbuzz.py
 
