@@ -45,14 +45,14 @@ elif Player_2_Score % 2 == 1:
 print("In round 1 you have scored " + str(Player_2_ScoreA))
 
 if Player_2_ScoreA > Player_1_ScoreA:
-   print("Player 2 Is Winning")
+   print((Name2) + " Is Winning")
 else:
-   print("Player 1 is Winning")
+   print((Name1) + " Is Winning")
 
 #Player 1 Round 2
 
-P1R2 = input("Are You ready for round 2 ")
-print("Player 1 round 2")
+P1R2 = input((Name1) + " Are you ready for round 2 ")
+print((Name1) + " round 2")
 
 Dice1a = random.randint(1,6)
 Dice2a = random.randint(1,6)
@@ -70,12 +70,12 @@ elif Player_1_Scorev2 % 2 == 1:
    
 print("In round 2 you have scored " + str(Player_1_ScoreAv2))
 x = (Player_1_ScoreA) + (Player_1_ScoreAv2)
-print("Player 1 total score is " + str(x))
+print((Name1) +  " total score is " + str(x))
 
 #Player 2 Round 2 
 
-P2R2 = input("Are You ready for round 2 ")
-print("Player 2 round 2")
+P2R2 = input((Name2) + " Are You ready for round 2 ")
+print((Name2) + " round 2")
 
 Dice3a = random.randint(1,6)
 Dice4a = random.randint(1,6)
@@ -93,18 +93,18 @@ elif Player_2_Scorev2 % 2 == 1:
    
 print("In round 2 you have scored " + str(Player_2_ScoreAv2))
 z = (Player_2_ScoreA) + (Player_2_ScoreAv2)
-print("Player 2 total score is " + str(z))
+print((Name2) + " total score is " + str(z))
 
 if z > x:
-   print("Player 2 Is Winning")
+   print((Name2) + " Is Winning")
 else:
-   print("Player 1 is Winning")
+   print((Name1) + "Is Winning")
 
 #End of round 2. 
 #Player 1 Round 3 
 
-P1R3 = input("Are You ready for round 3 ")
-print("Player 1 round 3")
+P1R3 = input((Name1) + " Are You ready for round 3 ")
+print((Name1) + " round 3")
 
 Dice1b = random.randint(1,6)
 Dice2b = random.randint(1,6)
@@ -122,12 +122,12 @@ elif Player_1_Scorev3 % 2 == 1:
    
 print("In round 3 you have scored " + str(Player_1_ScoreAv3))
 x3 = int(x) + (Player_1_ScoreAv3)
-print("Player 1 total score is " + str(x3))
+print((Name1) + " total score is " + str(x3))
 
 #Player 2 Round 3
 
-P2R3 = input("Are You ready for round 3 ")
-print("Player 2 round 3")
+P2R3 = input((Name2) + " Are You ready for round 3 ")
+print((Name2) + " round 3")
 
 Dice3b = random.randint(1,6)
 Dice4b = random.randint(1,6)
@@ -145,20 +145,20 @@ elif Player_2_Scorev3 % 2 == 1:
    
 print("In round 3 you have scored " + str(Player_2_ScoreAv3))
 z3 = int(z) + (Player_2_ScoreAv3)
-print("Player 2 total score is " + str(z3))
+print((Name2) + " total score is " + str(z3))
 
 if z3 > x3:
-   print("Player 2 Is Winning")
+   print((Name2) + " Has Won!")
 else:
-   print("Player 1 is Winning")
+   print((Name1) + " Has Won!")
 
 #End of Round 3
 #Crackdown
  
 END = input("End of the game.")
 
-with open ('Myfile.txt', 'a+') as Scores:
-    Scores.write("Player 1 has scored " + str(x3) + " Player 2 has scored " + str(z3))
+with open ('Dicey2 Scores.txt', 'a+') as Scores:
+    Scores.write("\n" + (Name1) + " Scored " + str(x3) + "\n" + (Name2) + " Scored " + str(z3))
 
 
 
