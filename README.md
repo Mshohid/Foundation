@@ -22,7 +22,10 @@ All credits go to Wajiha Urooj @ https://www.edureka.co/blog/snake-game-with-pyg
 
 # Spooky.py
 
-As part of the AWS re/Start programme I had studied Python. After a lesson covering if statements, lists, and loops, my instructor gave me 30 minutes to design a programme using those concepts. I came up with this story/whats-behind-the-door type game.
+As part of the AWS re/Start programme I had studied Python. After a lesson covering if statements, lists, and loops, my instructor gave me 30 minutes to design a programme using those concepts. I came up with this story/whats-behind-the-door type game
+
+# Users.py
+Recently I was challenged to make a program which emulates the process of creating and storing usernames in an app. Furthermore, the case the names are in should be insensitive and if the username was taken it should explain that another username should be created. 
 
 # Banarama.py 
 
