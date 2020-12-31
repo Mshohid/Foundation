@@ -10,6 +10,10 @@ At the end of the game,the program will create a .txt file called "Dicey2 Scores
 
 As part of the AWS re/Start course my instructor challenged me to make a programme re-enact the game fizzbuzz but using python.
 
+# Optimus-Prime.py
+
+A program that can accurately return which numbers are prime within a range. 
+
 # Scrape.py 
 
 My instructor wanted to see what I could do using beautiful soup so I built this in reponse. This is a scraper which I designed to pull the AWS blogs page and only print out the categories of content on the site.
