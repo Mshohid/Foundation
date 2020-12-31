@@ -10,6 +10,9 @@ At the end of the game,the program will create a .txt file called "Dicey2 Scores
 
 As part of the AWS re/Start course my instructor challenged me to make a programme re-enact the game fizzbuzz but using python.
 
+# Lockdown_dreaming.py
+This year (2020) many people had their plans ruined by Covid-19, including mine. A ruined holiday to Turkey combined with dictionaries, flags, loops, and inputs made the perfect inspiration for a python program. 
+
 # Optimus-Prime.py
 
 A program that can accurately return which numbers are prime within a range. 
