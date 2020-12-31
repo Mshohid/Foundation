@@ -8,7 +8,7 @@ while poll:
 
     responses[name] = question
 
-    repeat = input("Would anyone else want to have a go? 'yes/no ")
+    repeat = input("Would anyone else want to have a go? 'yes/no' ")
     if repeat == "no":
         poll = False
 
